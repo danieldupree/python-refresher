@@ -1,0 +1,203 @@
+Section 1: Welcome!
+1. How to take this course
+2. Before we get started: a self-assessment
+3. Python on Windows
+4. Python on Mac
+ 
+Section 2: A Full Python Refresher
+5. Introduction to this section
+6. Access the code for this section here
+7. Variables in Python
+Coding Exercise 1: Variables
+8. Solution to coding exercise: Variables
+9. String formatting in Python
+10. Getting user input
+11. Writing our first Python app
+12. Lists, tuples, and sets
+13. Advanced set operations
+Coding Exercise 2: Lists, tuples, and sets
+14. Solution to coding exercise: Lists, tuples, sets
+15. Booleans in Python
+16. If statements
+17. The 'in' keyword in Python
+18. If statements with the 'in' keyword
+19. Loops in Python
+Coding Exercise 3: Flow control—loops and ifs
+20. Solution to coding exercise: Flow control
+21. List comprehensions in Python
+22. Dictionaries
+23. Destructuring variables
+24. Functions in Python
+25. Function arguments and parameters
+26. Default parameter values
+27. Functions returning values
+Coding Exercise 4: Functions
+28. Solution to coding exercise: Functions
+29. Lambda functions in Python
+30. Dictionary comprehensions
+Coding Exercise 5: Dictionaries and students
+31. Solution to coding exercise: Dictionaries
+32. Unpacking arguments
+33. Unpacking keyword arguments
+34. Object-Oriented Programming in Python
+35. Magic methods: __str__ and __repr__
+Coding Exercise 6: Classes and objects
+36. Solution to coding exercise: Classes and objects
+37. @classmethod and @staticmethod
+Coding Exercise 7: @classmethod and @staticmethod
+38. Solution to coding exercise: @classmethod and @staticmethod
+39. Class inheritance
+40. Class composition
+41. Type hinting in Python 3.5+
+42. Imports in Python
+43. Relative imports in Python
+44. Errors in Python
+45. Custom error classes
+46. First-class functions
+47. Simple decorators in Python
+48. The 'at' syntax for decorators
+49. Decorating functions with parameters
+50. Decorators with parameters
+51. Mutability in Python
+52. Mutable default parameters (and why they're a bad idea)
+53. Conclusion of this section
+ 
+Section 3: Your first REST API 
+54. Introduction to this section
+55. What is an API?
+56. Installing Flask
+57. Access the code for this section here
+58. Your first Flask application
+59. HTTP Verbs
+60. REST Principles
+61. Creating our application endpoints
+62. Returning a list of stores
+63. Implementing other endpoints
+64. Calling the API from JavaScript
+65. Using Postman for API testing
+66. Conclusion of this section
+ 
+Section 4: Flask-RESTful for more efficient development
+67. Welcome to this section
+68. Virtualenvs and setting up Flask-RESTful
+69. Access the code for this section here
+70. Your first Flask-RESTful app
+71. Test-first API design—what is that?
+72. Creating our Item Resource
+73. The ItemList and creating Items
+74. Improving code and error control
+75. Authentication and logging in—part 1
+76. Authentication and logging in—part 2
+77. DELETE to delete Items
+78. PUT to create or update Items
+79. Advanced request parsing with Flask-RESTful
+80. Optimising our final code and request parsing
+81. Conclusion of this section
+ 
+Section 5: Storing resources in a SQL database
+82. Welcome to this section
+83. Setting up our project
+84. Access the code for this section here
+85. Running a SQLite database and interacting with it from
+Python
+86. Logging in and retrieving Users from a database
+87. Signing up and writing Users to a database
+88. Preventing duplicate usernames when signing users up
+89. Retrieving our Item resources from a database
+90. Writing our Item resources to a database
+91. Deleting our Item resources from the database
+92. Refactoring insertion of items
+93. The PUT method with database interaction
+94. Retrieving many items from the database
+95. Advanced Flask-JWT Configuration
+96. Conclusion of this section
+ 
+Section 6: Simplifying storage with Flask-SQLAlchemy
+97. Welcome to this section!
+98. Access the code for this section here
+99. Setting up this section's project
+100. Improving the project structure and maintainability
+101. Creating User and Item models
+102. Verifying the app works after our changes
+103. Advanced Postman: environments and tests
+104. Errata: small mistake in code in the next video
+105. Telling SQLAlchemy about our tables and columns
+106. Implementing the ItemModel using SQLAlchemy
+107. Implementing the UserModel using SQLAlchemy
+108. Easily displaying the ItemList resource with SQLAlchemy
+109. No more creating tables manually—telling SQLAlchemy
+to create tables
+110. Creating a new model: StoreModel
+111. Creating the Store Resource
+112. Final testing of this section's API
+113. Conclusion of this section
+ 
+Section 7: Git—version control
+114. Welcome to this section
+115. Installing Git on Mac and Windows
+116. What is a Git repository?
+117. The Git workflow—part 1
+118. The Git workflow—part 2, including GitHub
+119. Using SSH keys for security
+120. The README file
+121. Conclusion of this section
+ 
+Section 8: Deploying Flask apps to Heroku
+122. Welcome to this section
+123. Access the code for this section here
+124. What is Heroku?
+125. Getting our code into GitHub
+126. Setting up Heroku for Flask
+127. Adding the required files to the project
+128. Logs in Heroku and troubleshooting errors
+129. Testing the deployed API with Postman
+130. Adding PostgreSQL to our Heroku app
+131. Working with Git and automatic deploys
+132. Conclusion of this section
+ 
+Section 9: Deploying Flask apps to our own server
+133. Welcome to this section
+134. Setting up a DigitalOcean server
+135. Want to deploy to AWS?
+136. Installing PostgreSQL in Ubuntu 16.04
+137. Creating a UNIX user in Ubuntu 16.04
+138. Setting up our new user with PostgreSQL permissions
+139. Setting up nginx and our REST API
+140. Setting up uWSGI to run our REST API
+141. Testing our API to make sure everything works
+142. Conclusion of this section
+ 
+Section 10: Security in your REST APIs
+143. Welcome to this section
+144. Security in REST APIs e-book
+145. Getting our domain name
+146. Setting up Cloudflare
+147. What is DNS?
+148. Setting our DNS records
+149. Verifying everything works—this is important!
+150. Creating our SSL certificate in Cloudflare
+151. Configuring nginx for SSL
+Quiz 1: Security in REST APIs
+152. Extra technical SSL resources
+153. Conclusion of this section
+ 
+Section 11: Token refreshing and Flask-JWT-Extended
+154. Welcome to this section
+155. A recap of the code + a few changes!
+156. Creating a User Resource for testing
+157. Testing our new Resource with Postman
+158. Logging in with Flask-JWT-Extended
+159. Testing the login with Postman
+160. Adding JWT Claims
+161. Getting the JWT identity in and endpoint and @jwt_optional
+162. What is a fresh token?
+163. Performing token refresh in our REST API
+164. Requiring a fresh token in an endpoint
+165. Customizing Flask-JWT-Extended callbacks and responses
+166. Blacklisting with Flask-JWT-Extended
+167. Logging users out in our REST API
+168. E-book: complete review of the API so far
+169. Flask-JWT-Extended further reading
+ 
+Section 12: Bonus Section
+170. Bonus lecture: other courses and next steps
